@@ -1,0 +1,28 @@
+{
+  "name": "devbills-api",
+  "version": "1.0.0",
+  "description": "devbills API - controle sua vida financeira pessoal de forma fácil",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch ./src/server.ts"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Matheus Araujo",
+    "email": "theusnascimento386@gmail.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "@types/express": "^5.0.0",
+    "eslint": "^9.18.0",
+    "globals": "^15.14.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.20.0"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
